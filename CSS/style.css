@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+button {
+  background-color: #3182f6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+  background-color: #1d6fe0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin: 24px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+input,
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+textarea {
+  height: 30vh;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #3182f6;
+  outline: none;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.file-upload-image {
+  height: 20vh;
+}

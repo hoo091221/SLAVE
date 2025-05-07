@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLAVE</title>
+  <!-- CSS -->
+  <link href="./CSS/style.css" rel="stylesheet">
+  <!-- JQuery -->
+  <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Image Upload -->
+
+  <!-- <div class="card">
+    <input class="file-upload-input" id="fileInput" type='file' accept="image/*" />
+    <img class="file-upload-image" id="preview" style="display: none;" alt="이미지 미리보기"/>
+
+    <button onclick="uploadImg()">이미지 업로드</button>
+  </div> -->
+
+  <!-- Text Check -->
+
+  <div class="card">
+    <textarea id="askInput" spellcheck="false"></textarea>
+
+    <button onclick="askGemini(document.getElementById('askInput').value)">제출</button>
+  </div>
+
+  <!-- Answer -->
+
+  <div class="card">
+    <div class="text-anim" data-animation="character-fade-left-to-right">
+      <p id="responseText" style="color: #d1d6db">해설</p>
+    </div>
+    <!-- <div class="text-anim" data-animation="character-fade-left-to-right">글자단위 페이드-[왼쪽에서 오른쪽]</div> -->
+  </div>
+</body>
+<!-- JS -->
+<script src="./JS/SLAVE.js"></script>
+<script src="./JS/textAnim.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</html>

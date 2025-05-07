@@ -1,0 +1,2 @@
+Google API Key = AIzaSyApLVPBF5TDafTo1rZdiK8BrYvAnsmTLwA
+Gemini = AIzaSyAMqnSdJ7IndRV7rjrxkvx-807xkhFJgqw
